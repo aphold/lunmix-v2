@@ -1,0 +1,20 @@
+{
+  "name": "lunmix-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js --watch .",
+    "start": "node server.js",
+    "build": "echo \"No backend build step required\""
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "@fastify/cors": "^11.2.0",
+    "node-fetch": "^3.3.2",
+    "scramjet": "^4.37.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
